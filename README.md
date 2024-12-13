@@ -142,9 +142,6 @@ This implementation was built using:
   - [Effective Go](https://go.dev/doc/effective_go) for best practices
   - [Go Project Layout](https://github.com/golang-standards/project-layout) for structure
 
-Personal Note:
-While I had a solid understanding of reverse proxy concepts, the main challenge was implementing them in Go - a new language for me. The Go documentation, community, as well as online resources were invaluable in learning patterns and standard library usage. The systems design resources helped identify the core components needed for a minimal but functional implementation.
-
 ## Design Decisions
 
 1. **Architecture Components**
@@ -249,8 +246,5 @@ To scale this proxy for production use, several key enhancements would be needed
 - Restrict network access
 - Regular security updates
 
-## Thank You Note
 
-Thank you for this challenge! Implementing a reverse proxy with features like circuit breaking, rate limiting, and load balancing was an excellent exercise in systems design and Go programming. I learned a lot and appreciate the opportunity to demonstrate my approach to software engineering problems.
-
-Happy proxying! 🚀
+## Happy proxying! 🚀
